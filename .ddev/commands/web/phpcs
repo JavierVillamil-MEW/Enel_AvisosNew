@@ -8,4 +8,4 @@
 set -e
 
 # Execute phpcs command with all passed arguments
-./vendor/bin/phpcs --colors --standard=Drupal,DrupalPractice --extensions=php,module,inc,install,test,profile,theme,twig --ignore=node_modules "$@"
+./vendor/bin/phpcs --colors --standard=Drupal,DrupalPractice --extensions=php,module,inc,install,test,profile,theme,twig --ignore=node_modules,vendor "$@"

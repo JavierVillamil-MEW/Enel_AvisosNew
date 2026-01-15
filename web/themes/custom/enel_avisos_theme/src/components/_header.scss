@@ -1,0 +1,63 @@
+@use "../base/colors" as *;
+
+header {
+  background-color: $green;
+  position: relative;
+  color: $white;
+  min-height: 56vh;
+  padding: 1rem 3rem;
+
+  #block-enel-avisos-theme-site-branding {
+    position: absolute;
+    
+    img {
+      max-width: 109px;
+    }
+  }
+  
+  nav {
+    color: $white;
+
+    &#block-enel-avisos-theme-main-menu {
+      ul {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        width: 100%;
+
+        li {
+          margin: 1rem 0;
+
+          &:last-child {
+            margin-left: 2rem;
+            margin-right: 0;
+          }
+
+          &:first-child {
+            margin-left: 0;
+            margin-right: 2rem;
+          }
+
+          a {
+            color: $white;
+            font-weight: bold;
+            font-size: 12px;
+            text-decoration: none;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+
+   div {
+    &:first-child {
+      & > nav, & > div {
+        height: fit-content;
+      }
+    }
+  }
+}

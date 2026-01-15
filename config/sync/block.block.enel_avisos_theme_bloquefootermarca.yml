@@ -1,0 +1,25 @@
+uuid: 0deea0ae-6e58-4f8a-b8ed-eac7a2c2a535
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fb45df94-8fd4-4df4-ac56-494d39405680'
+  module:
+    - block_content
+  theme:
+    - enel_avisos_theme
+id: enel_avisos_theme_bloquefootermarca
+theme: enel_avisos_theme
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:fb45df94-8fd4-4df4-ac56-494d39405680'
+settings:
+  id: 'block_content:fb45df94-8fd4-4df4-ac56-494d39405680'
+  label: 'Bloque footer marca'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

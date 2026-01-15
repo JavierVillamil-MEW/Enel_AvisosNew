@@ -1,0 +1,11 @@
+#!/bin/bash
+
+## Description: Run phpstan commands within the DDEV web container
+## Usage: phpstan <command> [arguments]
+## Example: "ddev phpstan analyse web/custom/my-module"
+
+# Abort if anything fails
+set -e
+
+# Execute phpstan command with all passed arguments
+./vendor/bin/phpstan "$@"

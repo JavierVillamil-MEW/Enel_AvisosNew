@@ -1,0 +1,49 @@
+@use "~bootstrap/scss/bootstrap" as *;
+@use "../base/colors" as *;
+
+.footer {
+  background: $black-mid;
+  bottom: 0;
+  color: $gray-text;
+  left: 0;
+  position: fixed;
+  padding: 0.5rem;
+  width: 100%;
+  z-index: 99;
+
+  nav {
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin-right: 1rem;
+
+        &:last-child {
+          margin: 0;
+        }
+
+        a {
+          color: $links-color;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  div {
+    &:first-child {
+      display: flex;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+
+  #block-enel-avisos-theme-bloquefootermarca {
+    margin-right: 1rem;
+  }
+}

@@ -1,0 +1,18 @@
+uuid: 41c6f986-25ce-4398-8036-a022cf09475f
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.edict
+id: node.edict.title
+field_name: title
+entity_type: node
+bundle: edict
+label: 'Nombre peticionario'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

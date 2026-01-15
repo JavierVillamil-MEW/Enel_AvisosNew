@@ -1,0 +1,20 @@
+uuid: 806046c8-a596-4d60-911e-66fd0ad81f5f
+langcode: es
+status: true
+dependencies:
+  theme:
+    - enel_avisos_theme
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: enel_avisos_theme_primary_admin_actions
+theme: enel_avisos_theme
+region: header
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Acciones principales de administración'
+  label_display: '0'
+  provider: core
+visibility: {  }

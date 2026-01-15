@@ -1,0 +1,40 @@
+{
+  "name": "enel_avisos_theme",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Enel Avisos theme",
+  "keywords": [
+    "theme",
+    "Enel"
+  ],
+  "license": "ISC",
+  "author": "Fabian Perez",
+  "main": "index.js",
+  "scripts": {
+    "livereload": "livereload --exclusions node_modules/ --exts 'css,js,twig,theme,apng,avif,gif,jpg,jpeg,jfif,pjpeg,pjp,png,svg,webp'",
+    "build": "webpack --config ./webpack/webpack.config.js --mode=production",
+    "develop": "webpack --config ./webpack/webpack.config.js --mode=development",
+    "lint-styles": "npx stylelint './src/components/**/*.scss'",
+    "lint-fix": "npm run lint-styles -- --fix"
+  },
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "livereload": "^0.9.3",
+    "mini-css-extract-plugin": "^2.9.4",
+    "postcss-loader": "^8.2.0",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.97.0",
+    "sass-loader": "^16.0.6",
+    "style-loader": "^4.0.0",
+    "stylelint": "^16.26.1",
+    "stylelint-config-standard-scss": "^16.0.0",
+    "stylelint-order": "^7.0.1",
+    "stylelint-webpack-plugin": "^5.0.1",
+    "webpack": "^5.104.0",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "bootstrap": "^5.3.8"
+  }
+}

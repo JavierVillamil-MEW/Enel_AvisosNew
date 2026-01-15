@@ -1,0 +1,20 @@
+uuid: 3cdfa253-2dd1-45b0-aec5-8dee8e6a21bf
+langcode: es
+status: false
+dependencies:
+  theme:
+    - enel_avisos_theme
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: enel_avisos_theme_page_title
+theme: enel_avisos_theme
+region: header
+weight: 3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Título de la página'
+  label_display: '0'
+  provider: core
+visibility: {  }

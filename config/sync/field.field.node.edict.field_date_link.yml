@@ -1,0 +1,21 @@
+uuid: 84331b7d-235e-4bb2-89c5-16baa184e0b0
+langcode: es
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_link
+    - node.type.edict
+  module:
+    - datetime
+id: node.edict.field_date_link
+field_name: field_date_link
+entity_type: node
+bundle: edict
+label: 'Fecha de fijación'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

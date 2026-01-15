@@ -1,0 +1,25 @@
+uuid: e20cddb7-1f83-42ae-a783-bbd3aa053a6b
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - enel_avisos_theme
+id: enel_avisos_theme_piedepagina
+theme: enel_avisos_theme
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Pie de página'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: null
+  expand_all_items: false
+visibility: {  }

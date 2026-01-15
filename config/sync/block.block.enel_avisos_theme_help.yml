@@ -1,0 +1,22 @@
+uuid: 70bd735d-3bc0-49c9-ba8b-053fb15d22a4
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - enel_avisos_theme
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: enel_avisos_theme_help
+theme: enel_avisos_theme
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Ayuda
+  label_display: '0'
+  provider: help
+visibility: {  }

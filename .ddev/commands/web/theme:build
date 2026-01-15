@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+## Description: Build Theme dependencies
+## Usage: theme:build
+## Example: ddev theme:build
+
+cd /var/www/html/web/themes/custom/enel_avisos_theme
+npm run build

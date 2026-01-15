@@ -1,0 +1,16 @@
+uuid: e819f191-a143-461d-bdf0-2b98aa4bcb43
+langcode: es
+status: true
+dependencies: {  }
+id: produccion
+label: Producción
+description: ''
+weight: 0
+stackable: false
+no_patching: false
+storage: folder
+folder: ../config/prod
+module: {  }
+theme: {  }
+complete_list: {  }
+partial_list: {  }

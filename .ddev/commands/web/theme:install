@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+## Description: Install Theme dependencies
+## Usage: theme:install
+## Example: ddev theme:install
+
+nvm use
+cd /var/www/html/web/themes/custom/enel_avisos_theme || exit
+
+if [[ ! -e "package-lock.json" ]]; then
+  npm i
+else
+  npm ci
+fi

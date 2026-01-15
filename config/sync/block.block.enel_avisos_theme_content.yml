@@ -1,0 +1,22 @@
+uuid: 0331e4ab-46d2-40dc-8acf-0a78b2ceae8e
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - enel_avisos_theme
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: enel_avisos_theme_content
+theme: enel_avisos_theme
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenido principal de la página'
+  label_display: '0'
+  provider: system
+visibility: {  }

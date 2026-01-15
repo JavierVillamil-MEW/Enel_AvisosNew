@@ -1,0 +1,31 @@
+@use "../base/colors" as *;
+
+#block-enel-avisos-theme-heroblock {
+  margin: -25rem 0 3rem;
+  z-index: 10;
+  position: relative;
+
+  h1 {
+    color: $white;
+
+    // font-family: 'RoobertENEL';
+    font-weight: 300;
+    font-size: 68px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin: 3rem auto 2rem;
+  }
+
+  p {
+    color: $text-color;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 0 16rem;
+    text-align: center;
+  }
+}

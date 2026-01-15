@@ -1,0 +1,22 @@
+uuid: 1cff4a9d-87ab-49e5-b511-da7e179958e7
+langcode: es
+status: true
+dependencies:
+  theme:
+    - enel_avisos_theme
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: enel_avisos_theme_primary_local_tasks
+theme: enel_avisos_theme
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Solapas principales'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

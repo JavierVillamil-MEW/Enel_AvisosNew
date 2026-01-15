@@ -1,0 +1,30 @@
+uuid: 686905bc-a848-47f0-91f0-d20fa429b0e3
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e12e056c-5c59-4b89-897e-c039c397b1e3'
+  module:
+    - block_content
+    - system
+  theme:
+    - enel_avisos_theme
+id: enel_avisos_theme_heroblock
+theme: enel_avisos_theme
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:e12e056c-5c59-4b89-897e-c039c397b1e3'
+settings:
+  id: 'block_content:e12e056c-5c59-4b89-897e-c039c397b1e3'
+  label: 'Hero block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

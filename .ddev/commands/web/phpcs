@@ -1,0 +1,11 @@
+#!/bin/bash
+
+## Description: Run PHPCS commands within the DDEV web container
+## Usage: phpcs <path-to-review> [flags]
+## Example: "ddev phpcs web/custom/my-module"
+
+# Abort if anything fails
+set -e
+
+# Execute phpcs command with all passed arguments
+./vendor/bin/phpcs --colors --standard=Drupal,DrupalPractice --extensions=php,module,inc,install,test,profile,theme,twig --ignore=node_modules,vendor "$@"

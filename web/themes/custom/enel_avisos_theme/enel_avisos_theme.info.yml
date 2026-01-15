@@ -1,0 +1,20 @@
+name: Enel Avisos theme
+type: theme
+base theme: stable9
+description: This is the theme for the Enel Avisos platform.
+package: Enel
+core_version_requirement: ^10 || ^11
+libraries:
+  - enel_avisos_theme/global
+regions:
+  header: 'Header'
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  featured: 'Featured'
+  breadcrumb: 'Breadcrumb'
+  content: 'Content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: 'Footer'

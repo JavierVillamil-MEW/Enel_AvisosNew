@@ -1,0 +1,12 @@
+name: 'Avisos migration'
+type: module
+description: 'This is the module to make the migration from the Laravel DB to the Drupal DB.'
+package: Enel
+core_version_requirement: ^10 || ^11
+
+dependencies:
+  - custom_sql_migrate_source_plugin:custom_sql_migrate_source_plugin
+  - migration:migration
+  - migration_plus:migration_plus
+  - migration_tools:migration_tools
+  - migration_ui:migration_ui

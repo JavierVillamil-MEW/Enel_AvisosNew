@@ -1,0 +1,11 @@
+uuid: 2738ac1f-5d01-417f-8a56-2d0509e8d79e
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.edict
+id: node.edict
+target_entity_type_id: node
+target_bundle: edict
+default_langcode: site_default
+language_alterable: false

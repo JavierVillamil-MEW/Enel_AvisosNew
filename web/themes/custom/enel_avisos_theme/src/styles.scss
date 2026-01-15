@@ -1,0 +1,15 @@
+// Importing Bootstrap.
+@use "~bootstrap/scss/bootstrap" as *;
+// Importing Font Awesome;
+@use "~@fortawesome/fontawesome-free/scss/fontawesome.scss" as *;
+@use "~@fortawesome/fontawesome-free/scss/brands.scss" as *;
+@use "~@fortawesome/fontawesome-free/scss/regular.scss" as *;
+@use "~@fortawesome/fontawesome-free/scss/solid.scss" as *;
+
+// Components.
+@use './base/base' as *;
+// Components.
+@use './components/table-edictos' as *;
+@use './components/header' as *;
+@use './components/footer' as *;
+@use './components/hero' as *;
